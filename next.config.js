@@ -20,13 +20,13 @@ const configuration = {
     if (!dev) {
       config.optimization = {
         minimizer: [
-          new UglifyJsPlugin({
-            uglifyOptions: {
-              comments: false,
-              compress: false
-            },
-            sourceMap: true
-          })
+          // new UglifyJsPlugin({
+          //   uglifyOptions: {
+          //     comments: false,
+          //     compress: false
+          //   },
+          //   sourceMap: true
+          // })
         ]
       }
     }
