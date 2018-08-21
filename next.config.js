@@ -17,19 +17,7 @@ const configuration = {
     //exclude all moment locales to cut bundle size
     // TODO : include the ones needed
 
-    if (!dev) {
-      config.optimization = {
-        minimizer: [
-          // new UglifyJsPlugin({
-          //   uglifyOptions: {
-          //     comments: false,
-          //     compress: false
-          //   },
-          //   sourceMap: true
-          // })
-        ]
-      }
-    }
+
     return config;
   }
 };
